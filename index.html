@@ -8,7 +8,6 @@
 <body>
 <h2>JavaScript For Loop</h2>
 <p id="sample"></p>
-
 <script>
 let Sample1= "";
 
@@ -21,7 +20,6 @@ document.getElementById("sample").innerHTML = Sample1;
 
 <h2>JavaScript While Loop</h2>
 <p id="Sample2"></p>
-
 <script>
 let Sample2= "";
 let y = 0;
@@ -30,6 +28,21 @@ while (y < 5) {
   y++;
 }
 document.getElementById("Sample2").innerHTML = Sample2;
+</script>
+
+<h2>JavaScript Do While Loop</h2>
+<p id="sample"></p>
+<script>
+let Sample3 = "";
+let x = 0;
+
+do {
+  Sample3 += "<br>The number is " + x;
+  x++;
+}
+while (x < 5);  
+
+document.getElementById("Sample3").innerHTML = Sample3;
 </script>
 </body>
 </html>
